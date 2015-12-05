@@ -29,18 +29,23 @@
 
 .jumbotron h1 {
   color: #fff;
-  font-size: 20px;  
+  font-size: 50px;  
   font-family: 'Shift', sans-serif;
     font-weight: bold;
 }
+.jumbotron h2 {
+  color: inherit;
+  font-size: 30px;  
+  font-family: 'Shift', sans-serif;
+}
 
 .jumbotron p {
-  font-size: 15px;
+  font-size: 20px;
   color: #fff;
 }
 
 .jumbotron a {
- font-size: 15px;
+ font-size: 20px;
 color:#fff;
 }
 
@@ -236,7 +241,7 @@ p {
 }
 
 img {
-    max-width: 80%!important;
+    max-width: 100%!important;
 }
 p, h2, h3 {
     orphans: 3;
