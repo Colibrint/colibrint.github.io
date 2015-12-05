@@ -1,22 +1,32 @@
 
 .nav {
  background-color:#f7f7f7; 
+ height:70px;
 }
 .nav a {
-  color: #5a5a5a;
+    height:70px;
+      color: #5a5a5a;
   font-size: 12px;
   font-weight: bold;
-  padding: 14px 14px;
+  padding: 10px 10px;
   text-transform: uppercase;
+  text-align: center;
+position: relative;
+padding-bottom: 35px;
+  vertical-align: middle;
+  display: table-cell;
 }
 
 .nav li {
+      height:70px;
+text-align: center;
+      vertical-align: middle;
   display: inline;
 }
 
 .jumbotron {
   background-color:#f7f7f7;
-  height: 450px;
+  height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -35,7 +45,7 @@
 }
 .jumbotron h2 {
   color: inherit;
-  font-size: 30px;  
+  font-size: 25px;  
   font-family: 'Shift', sans-serif;
 }
 
@@ -61,7 +71,7 @@ color:#fff;
 
 .learn-more a {
   color: #00b0ff;
-}
+}file:///home/ssulejma/Desktop/colibrint.github.io/index.html
 
 .neighborhood-guides{
     background-color:#f7f7f7; 
@@ -167,13 +177,10 @@ color:#fff;
     font-size: 50px;
 }
 }.thumbnail {
-    display: block;
-    padding: 4px;
-    margin-bottom: 20px;
+    padding: 1px;
+    margin-bottom: 1px;
     line-height: 1.42857143;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    background-color: inherit;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
@@ -182,10 +189,10 @@ color:#fff;
     margin-right: auto;
 }
 a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
-    border-color: #428bca;
+    border-color: transparent;
 }
 .thumbnail .caption {
-    padding: 9px;
+    padding: 1px;
     color: #333;
 }
 
@@ -287,11 +294,12 @@ img {
     border-radius: 6px;
 }
 .img-thumbnail {
-    padding: 4px;
+    padding: 1px;
     line-height: 1.42857143;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    background-color: transparent;
+    opacity: 0;
+    border: 1px;
+    border-radius: 1px;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     display: inline-block;
@@ -2688,13 +2696,13 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
     list-style: none;
 }
 .nav>li {
-    position: relative;
+    position: center;
     display: block;
 }
 .nav>li>a {
-    position: relative;
+    position: center;
     display: block;
-    padding: 10px 15px;
+    padding: 15px 15px;
 }
 .nav>li>a:hover, .nav>li>a:focus {
     text-decoration: none;
