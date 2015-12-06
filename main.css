@@ -26,7 +26,7 @@ text-align: center;
   display: inline;
 }
 
-.nav img { 
+.nav  { 
     padding-bottom: 0px;
    text-align: center;
     vertical-align: :middle;
@@ -56,12 +56,22 @@ text-align: center;
   height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
+      margin-bottom: inherit;
+    padding-right: inherit;
+    padding-left: inherit;
+    padding: 30px;
+    margin-bottom: 0px;
+    color: inherit;
+    background-color: #eee;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .jumbotron .container {
   position: relative;
   top:10px;
-  bottom:10px;
+  bottom:0px;
+      max-width: 100%
 }
 
 .jumbotron h1 {
@@ -69,6 +79,10 @@ text-align: center;
   font-size: 50px;  
   font-family: 'Shift', sans-serif;
     font-weight: bold;
+        margin-top: inherit;
+    margin-bottom: inherit;
+    -webkit-font-smoothing: antialiased;
+    text-shadow:  inherit;
 }
 .jumbotron h2 {
   color: inherit;
@@ -76,15 +90,118 @@ text-align: center;
   font-family: 'Shift', sans-serif;
 }
 
-.jumbotron p {
-  font-size: 20px;
-  color: #fff;
-}
-
 .jumbotron a {
  font-size: 20px;
 color:#fff;
+    font-size: 15px;
+    color: #fff;
 }
+
+.jumbotron p {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 0;
+    text-shadow:  0 -1px 1px rgba(0, 0, 0, 0.6);
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+}
+
+.jumbotron h1, .jumbotron .h1 {
+    color: inherit;
+        font-size: 50px;
+}
+
+.container .jumbotron {
+    border-radius: 6px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+@media screen and (min-width:768px) {
+
+
+
+
+
+
+.subjumbotron {
+  background-color: #f7f7f7;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subjumbotron .container {
+  position: relative;
+  top:0px;
+  bottom:0px;
+}
+
+.subjumbotron h1 {
+  color: #5a5a5a;
+  font-size: 50px;  
+  font-family: 'Shift', sans-serif;
+    font-weight: bold;
+}
+.subjumbotron h2 {
+  color: #5a5a5a;
+  font-size: 25px;  
+  font-family: 'Shift', sans-serif;
+}
+
+.subjumbotron p {
+  font-size: 20px;
+  color: #5a5a5a;
+}
+
+.subjumbotron a {
+ font-size: 20px;
+color:#5a5a5a;
+}
+
+
+
+
+
+
+.subsubjumbotron {
+  background-color: #f7f7f7;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subsubjumbotron .container {
+    text-align: center;
+  position: bottom;
+  top:40px;
+  bottom:0px;
+}
+
+.subsubjumbotron h1 {
+  color: #5a5a5a;
+  font-size: 50px;  
+  font-family: 'Shift', sans-serif;
+    font-weight: bold;
+}
+.subsubjumbotron h2 {
+  color: #5a5a5a;
+  font-size: 25px;  
+  font-family: 'Shift', sans-serif;
+}
+
+.subsubjumbotron p {
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+.subsubjumbotron a {
+ font-size: 20px;
+color:#5a5a5a;
+}
+
 
 .learn-more {
   background-color: #f7f7f7;
@@ -125,25 +242,7 @@ color:#fff;
     padding-top: 8px;
     padding-bottom: 8px;
 }
-.jumbotron {
-    margin-bottom: inherit;
-    padding-right: inherit;
-    padding-left: inherit;
-}
-.jumbotron h1 {
-    margin-top: inherit;
-    margin-bottom: inherit;
-    -webkit-font-smoothing: antialiased;
-    text-shadow:  inherit;
-}
-.jumbotron p {
-    margin-top: 0;
-     text-shadow:  0 -1px 1px rgba(0, 0, 0, 0.6);
-}
-.jumbotron a {
-    font-size: 15px;
-    color: #fff;
-}
+
 .neighborhood-guides h2 {
     margin-top: 37px;
 }
@@ -172,37 +271,7 @@ color:#fff;
     top: 0;
 }
 
-.jumbotron {
-    padding: 30px;
-    margin-bottom: 30px;
-    color: inherit;
-    background-color: #eee;
-}
-.jumbotron h1, .jumbotron .h1 {
-    color: inherit;
-}
-.jumbotron p {
-    margin-bottom: 15px;
-    font-size: 21px;
-    font-weight: 200;
-}
-.container .jumbotron {
-    border-radius: 6px;
-}
-.jumbotron .container {
-    max-width: 100%}
-@media screen and (min-width:768px) {
-    .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
-}
-.container .jumbotron {
-    padding-left: 60px;
-    padding-right: 60px;
-}
-.jumbotron h1, .jumbotron .h1 {
-    font-size: 50px;
-}
+
 }.thumbnail {
     padding: 1px;
     margin-bottom: 1px;
