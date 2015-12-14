@@ -33,7 +33,7 @@ text-align: center;
 }
 
 .nav>li>a>img {
-    max-width: none;
+    max-width: 100%;
 }
 
 .nav {
@@ -333,7 +333,7 @@ color:#5a5a5a;
     padding-bottom: 50px;
 }
 .neighborhood-guides .thumbnail {
-    max-width: 360px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -490,8 +490,11 @@ img {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%}
-body {
-    width:100%;
+body{
+  width:100%;
+  margin:auto;
+  min-width:600px;
+  max-width:2000px
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
@@ -1209,7 +1212,7 @@ pre code {
 .col-sm-offset-0 {
     margin-left: 0;
 }
-}@media (min-width:992px) {
+@media (min-width:992px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
 }
@@ -1318,7 +1321,7 @@ pre code {
 .col-md-offset-0 {
     margin-left: 0;
 }
-}@media (min-width:1200px) {
+@media (min-width:1200px) {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
 }
@@ -3047,11 +3050,11 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
     .navbar {
     border-radius: 4px;
 }
-}@media (min-width:768px) {
+@media (min-width:768px) {
     .navbar-header {
     float: left;
 }
-}.navbar-collapse {
+.navbar-collapse {
     max-height: 340px;
     overflow-x: visible;
     padding-right: 15px;
@@ -3202,7 +3205,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
 }
-}@media (min-width:768px) {
+@media (min-width:768px) {
     .navbar-left {
     float: left!important;
 }
@@ -3251,7 +3254,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 .navbar-form .has-feedback .form-control-feedback {
     top: 0;
 }
-}@media (max-width:767px) {
+@media (max-width:767px) {
     .navbar-form .form-group {
     margin-bottom: 5px;
 }
@@ -4330,7 +4333,7 @@ button.close {
 .modal-sm {
     width: 300px;
 }
-}@media (min-width:992px) {
+@media (min-width:992px) {
     .modal-lg {
     width: 900px;
 }
