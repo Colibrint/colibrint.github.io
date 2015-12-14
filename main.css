@@ -1,26 +1,26 @@
 
 .nav {
  background-color:#f7f7f7; 
- height:70px; 
+ height: auto; 
 vertical-align: middle;
 }
 .nav a {
-    height:70px;
+    height:auto;
       color: #5a5a5a;
-  font-size: 12px;
+  font-size: 10pt;
   font-weight: bold;
   padding: 10px 10px;
   text-transform: uppercase;
   text-align: center;
 position: relative;
-padding-bottom: 35px;
+padding-bottom: 0px;
   vertical-align: middle;
   display: table-cell;
 }
 
 
 .nav li {
-      height:70px;
+      height:auto;
 text-align: center;
       vertical-align: middle;
   display: inline;
@@ -29,7 +29,6 @@ text-align: center;
 .nav  { 
     padding-bottom: 0px;
    text-align: center;
-    vertical-align: :middle;
 }
 
 .nav>li>a>img {
@@ -48,35 +47,35 @@ text-align: center;
 .nav>li>a {
     position: center;
     display: block;
-    padding: 15px 15px;
+    padding: auto;
 }
 
 .jumbotron {
   background-color:#f7f7f7;
-  height: 400px;
+  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
       margin-bottom: inherit;
     padding-right: inherit;
     padding-left: inherit;
-    padding: 30px;
+    padding: 0px;
     margin-bottom: 0px;
     color: inherit;
     background-color: #eee;
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .jumbotron .container {
   position: relative;
-  top:10px;
+  top:0px;
   bottom:0px;
       max-width: 100%
 }
 
 .jumbotron h1 {
   color: #fff;
-  font-size: 50px;  
+  font-size: 32pt;  
   font-family: 'Shift', sans-serif;
     font-weight: bold;
         margin-top: inherit;
@@ -86,30 +85,26 @@ text-align: center;
 }
 .jumbotron h2 {
   color: inherit;
-  font-size: 25px;  
+  font-size: 18pt;  
   font-family: 'Shift', sans-serif;
 }
 
 .jumbotron a {
- font-size: 20px;
+ font-size: 14pt;
 color:#fff;
-    font-size: 15px;
-    color: #fff;
 }
 
 .jumbotron p {
-    font-size: 20px;
+    font-size: 18pt;
     color: #fff;
     margin-top: 0;
     text-shadow:  0 -1px 1px rgba(0, 0, 0, 0.6);
     margin-bottom: 15px;
-    font-size: 21px;
     font-weight: 200;
 }
 
 .jumbotron h1, .jumbotron .h1 {
     color: inherit;
-        font-size: 50px;
 }
 
 .container .jumbotron {
@@ -118,7 +113,6 @@ color:#fff;
     padding-right: 60px;
 }
 
-<<<<<<< master
 .subcontainer .jumbotron {
     border-radius: 6px;
     padding-left: 60px;
@@ -249,7 +243,6 @@ color:#5a5a5a;
 
 .subsubjumbotron .container {
     text-align: center;
->>>>>>> f3a3a2b Revert "version1.5"
   position: bottom;
   top:40px;
   bottom:0px;
