@@ -48,12 +48,11 @@ padding-bottom: 0px;
       margin-bottom: inherit;
     padding-right: inherit;
     padding-left: inherit;
-    padding: 0px;
     margin-bottom: 0px;
     color: inherit;
     background-color: #eee;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 32pt;
+    padding-bottom: 32pt;
 }
 
 .jumbotron .container {
@@ -89,7 +88,7 @@ color:#fff;
     color: #fff;
     margin-top: 0;
     text-shadow:  0 -1px 1px rgba(0, 0, 0, 0.6);
-    margin-bottom: 15px;
+    margin-bottom: 15pt;
     font-weight: 200;
 }
 
@@ -98,9 +97,9 @@ color:#fff;
 }
 
 .container .jumbotron {
-    border-radius: 6px;
-    padding-left: 60px;
-    padding-right: 60px;
+    border-radius: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .subcontainer .jumbotron {
