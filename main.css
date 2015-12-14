@@ -491,8 +491,9 @@ img {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%}
 body {
-    margin: 0;
+    width:100%;
 }
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
     display: block;
 }
