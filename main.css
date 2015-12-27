@@ -1,4 +1,123 @@
 
+
+
+@media (min-width:768px) {
+    .subjectbox {
+    width: 80%;
+}
+@media (min-width:992px) {
+    .subjectbox {
+    width: 80%;
+}
+@media (min-width:1200px) {
+    .subjectbox {
+    width: 80%;
+}
+.subjectbox .jumbotron {
+
+    border-radius: 6px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.subsubjumbotron .subjectbox {
+text-align: center;
+}
+
+.subjectbox .subjumbotron {
+  position: center;
+  top:0px;
+  bottom:0px;
+}
+
+.subjectbox {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.subjectbox .col-md-3 {
+    background-color: white;
+
+    border-color:#5a5a5a;
+    border-width: 1px;
+    margin-right: auto;
+    margin-left: 2%;
+    padding: 2%;
+    height:25%;
+}
+
+.subjectbox .col-md-7 {
+    background-color: white;
+    margin-right: 1% !important;
+    margin-left: 1% !important;
+    margin-bottom:5% !important;
+    padding: 2% !important;
+    height:25%;
+    width: 100% !important;
+    text-align:justify !important;
+}
+
+.subjectbox .col-md-7 h1{
+  font-size: 20px !important;
+    color: #999;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  
+}  
+  
+.subjectbox .col-md-2 {
+    background-color: white;
+    margin-right: 0% !important;
+    margin-left: 1% !important;
+    padding: 1% !important;
+    width:35% !important;
+        text-align:right;
+
+} 
+
+.subjectbox .col-md-4 {
+    background-color: white;
+    margin-right: 1% !important;
+    margin-left: 1% !important;
+    padding: 1% !important;
+    width: 60% !important;
+
+
+}
+
+.subjectbox .col-md-4 p{
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+.subjectbox .col-md-4 a{
+  font-size: 14px;
+    text-decoration: underline !important;
+  line-height:14px !important;
+}
+
+.subjectbox a{
+    font-size: 14px !important;
+         text-decoration: underline !important;
+        line-height:42px;
+}
+
+.subjectbox h1{
+  font-size: 32px !important;
+    color: #999;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+.subjectbox h2{
+  text-align: center;
+  font-size: 18px !important;
+    color: #999;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
 .nav {
  background-color:#f7f7f7; 
  height: auto; 
@@ -117,7 +236,7 @@ color:#fff;
 
 .subjumbotron {
   background-color: #f7f7f7;
-  height: 500px;
+  height: 1000px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -158,34 +277,34 @@ color:#5a5a5a;
 
 
 .subsubjumbotron {
-  background-color: #f7f7f7;
-  height: 30px;
+  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .subsubjumbotron .container {
-    text-align: center;
+  background-color: #f7f7f7;
+  text-align: center;
   position: bottom;
-  top:40px;
+  top:10%;
   bottom:0px;
 }
 
+.subsubjumbotron .container p{
+padding-top:1%;
+}
 
 .subsubjumbotron .subcontainer {
 text-align: center;
 }
 
-@media screen and (min-width:768px) {
-
-}
 
 
 
 
 .subjumbotron {
   background-color: #f7f7f7;
-  height: 500px;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -260,65 +379,6 @@ color:#5a5a5a;
 }
 
 
-.learn-more {
-  background-color: #f7f7f7;
-}
-
-.learn-more h3 {
-  font-family: 'Shift', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.learn-more a {
-  color: #00b0ff;
-}
-
-.neighborhood-guides{
-    background-color:#f7f7f7; 
-    border-bottom: 1px solid #dbdbdb;
-}
-
-.neighborhood-guides h2 {
-    color: #393c3d;
-    font-size: 24px;
-}
-
-.neighborhood-guides p {
-    font-size:15px;
-    margin-bottom:13px
-}
-
-
-
-
-.neighborhood-guides h2 {
-    margin-top: 37px;
-}
-.neighborhood-guides .thumbnail {
-    margin: none;
-    padding: none;
-    border: none;
-    background-color: transparent;
-    position: relative;
-}
-.learn-more {
-    padding-top: 25px;
-    padding-bottom: 50px;
-}
-.neighborhood-guides .thumbnail {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.neighborhood-guides .thumbnail h4 {
-    font-family: Shift, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 29px;
-    color: #fff;
-    text-shadow: 0 1px 8px rgba(0, 0, 0, .5);
-    position: absolute;
-    top: 0;
-}
 
 
 }.thumbnail {
@@ -380,7 +440,9 @@ h5, .h5 {
     font-size: 14px;
 }
 h6, .h6 {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 42px;
 }
 p {
     margin: 0 0 10px;
@@ -4809,9 +4871,8 @@ tr.visible-print {
 th.visible-print, td.visible-print {
     display: table-cell!important;
 }
-}@media print {
+@media print {
     .hidden-print {
     display: none!important;
-}
 }
 
