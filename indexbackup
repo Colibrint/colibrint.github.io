@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+
+
+  <head>
+    <title>3D Printing and additive manufacturing consulting services</title>
+    <meta name="Colibrint, Additive manufacturing and 3D printing consulting services"/>
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="#"><img src="images/relampago_solid.png" alt= "Additive manufacturing consultant" Height="25" Width="25" position="absolute"/></a></li>
+          <li><a href="#">Colibrint</a></li>
+          <!--li><a href="#">co-colibrint</a></li-->
+        </ul>
+        <ul class="pull-right">
+          <li><a href="https://twitter.com/colibrint"><img src="images/twitter.png" alt= "colibrint twitter" Height="15" Width="20"/></a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="NL.html">NL</a></li>
+          <li><a href="FR.html">FR</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-4">
+            <div class = "thumbnail">
+              <a href="index.html"><img src="images/relampago_transp.png" alt="3D printing consulting" Height="300" Width="300"/></a>
+              <!-- a href="https://openclipart.org/detail/98281/mesh---12-points"><img src="https://openclipart.org/download/98281/12-POINTS-FULL-MESH.svg" Height="200" Width="200"/></a-->
+            </div>
+          </div>
+        
+          <div class="col-md-8">
+            <h1> Colibrint Consulting </h1>
+            <h2> Consultancy services and custom-tailored advice on all additive manufacturing and 3D printing jobs</h2>
+            <a href="#">Website coming soon</a>
+            <br>
+            <br>
+            <h4>info@colibrint.com</h4>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="subjumbotron">
+      <div class="container">
+      <br>
+      <br>  
+      <br> 
+            <br>       
+          <div class="col-md-8">
+            <!--h1> <a name="About-consulting-for-3d-printing-additive-manufacturing-EN">Services</a></h1-->
+            <!--p> Additive manufacturing, rapid prototyping and 3D printing jobs</p-->
+            <!--p><a href="#">More information</a></p-->
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+            </div>
+          </div>
+
+      </div>
+
+      <div class="subcontainer" text-align="center">
+        <div class="row">
+          <div class="col-md-4">
+
+            <a href="#"><center><img src="images/architecture.jpeg" alt="Architecture" Height="150" Width="250"/></center></a>
+                        <p><center> Architecture</center></p>
+          </div>
+          <div class="col-md-4">
+
+            <a href="#"><center><img src="images/shoes.jpg" alt="Design" Height="150" Width="250"/></center></a>
+            <p> <center>Design</center></p>
+          </div>
+          <div class="col-md-4">
+
+            <a href="#"><center><img src="images/food.jpeg" alt="Food" Height="150" Width="250"/></center></a>
+            <p> <center>Food</center></p>
+          </div>
+          </div>
+          
+      </div>
+      <br>
+      <br>
+      <div class="subcontainer">
+        <div class="row">
+
+          <div class="col-md-4">
+            <a href="#"><center><img src="images/succes_kid.jpg" alt="Architecture" Height="150" Width="250"/></center></a>  
+            <p><center> Consumer goods</center></p>        
+          </div>
+          <div class="col-md-4">
+
+            <a href="#"><center><img src="images/robothand.png" alt="Healthcare" Height="150" Width="250"/></center></a>
+            <p> <center>Healthcare</center></p>
+
+          </div>
+          <div class="col-md-4">
+
+            <a href="#"><center><img src="images/car.jpeg" alt="Technology" Height="150" Width="250"/></center></a>
+            <p> <center>Technology</center></p>
+          </div>
+          </div>
+          
+      </div>
+
+      <br>
+      <br>
+
+<div class="subcontainer">
+        <div class="row">
+
+
+          <div class="col-md-4">
+
+            <a href="#"><center><img src="images/solar_system.jpg" alt="Customized" Height="150" Width="250"/></center></a>
+            <p> <center>Custom services</center></p>
+          </div>
+
+
+          <div class="col-md-4">
+       
+          </div>
+
+          <div class="col-md-4">
+
+          </div>
+
+
+          </div>
+          
+
+
+      </div>
+
+
+
+
+    </div>
+
+    <div class="subjumbotron">
+      <div class="container">
+
+     
+      <br>
+      <br>
+      <br>
+      <br>      
+      <br>
+      <br>     
+      <br>
+      <br>      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+ 
+          <div class="col-md-8">
+            <h1> <a name="Blog-Latest-news-on-3d-printing-additive-manufacturing-technology-EN">Blog </a></h1>
+            <!--p> Consultancy services and custom-tailored advice on all additive manufacturing and 3D printing jobs</p-->
+            <p><a href="#">Coming soon</a></p>
+          </div>
+
+        <div class="row">
+          <div class="col-md-4">
+                        <a class="twitter-timeline"  href="https://twitter.com/colibrint" data-widget-id="673619072643407872">Tweets by @colibrint</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
+          
+          
+          
+          </div>
+
+    
+        </div>
+      </div>
+    </div>
+
+    <div class="subjumbotron">
+      <div class="container">
+
+          <div class="col-md-8">
+            <h1> <a name="Contact-consulting-for-3d-printing-additive-manufacturing-EN">Contact </a></h1>
+            <p> info@colibrint.com </p>
+          </div>   
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="subsubjumbotron">
+      <div class="container">
+            <p> info@colibrint.com | Colibrint consulting services | Colibrindis </p>
+      </div>
+    </div>
+    </div>
+
+
+<!--joder Al alba, saluda al sol. A veces duda, y queda inmóvil en el aire, suspendido; a veces vuela hacia atrás, como nadie puede. A veces anda borrachito, de tanto beber las mieles de las corolas. Al volar, lanza relámpagos de colores.-->
+
+
+<!-- Piwik -->
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+    var u="//colibrint.piwikpro.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+    </script>
+<noscript><p><img src="//colibrint.piwikpro.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+  </body>
+</html>
